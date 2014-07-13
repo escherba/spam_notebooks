@@ -1,0 +1,7 @@
+# iPython
+
+.ipynb_checkpoints/
+
+# Vim
+
+*.sw[op]
