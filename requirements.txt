@@ -12,6 +12,7 @@ tornado
 beautifulsoup4==4.3.2
 regex>=2014.08.15
 colorama>=0.2.7
+lxml
 fp-growth==0.1.2
 -e git+https://github.com/escherba/pymaptools.git#egg=pymaptools
 -e git+https://github.com/escherba/lsh-hdc#egg=lsh-hdc
