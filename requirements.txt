@@ -11,7 +11,6 @@ jinja2
 tornado
 beautifulsoup4==4.3.2
 regex>=2014.08.15
-lxml>=3.3.5
 colorama>=0.2.7
 fp-growth==0.1.2
 -e git+https://github.com/escherba/pymaptools.git#egg=pymaptools
