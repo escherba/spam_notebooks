@@ -19,8 +19,8 @@ env/bin/activate: requirements.txt
 	test -f $@ || virtualenv --no-site-packages env
 	easy_install ipython
 	$(PYENV) STATIC_DEPS=true CFLAGS=-I/usr/local/include/lzma pip install -U lxml
-	$(PYENV) pip install --process-dependency-links -r requirements.txt
+	$(PYENV) pip install --process-dependency-links -r $<
 	touch $@
 
 upgrade: env
-	$(PYENV) pip install --process-dependency-links -r requirements.txt --upgrade
+	$(PYENV) pip install --process-dependency-links -r $< --upgrade
