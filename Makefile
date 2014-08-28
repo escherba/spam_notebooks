@@ -18,7 +18,7 @@ env/bin/activate: requirements.txt
 	[ -x "`which virtualenv`" ] || pip install virtualenv
 	test -f $@ || virtualenv --no-site-packages env
 	easy_install ipython
-	STATIC_DEPS=true CFLAGS=-I/usr/local/include/lzma pip install -U lxml
+	$(PYENV) STATIC_DEPS=true CFLAGS=-I/usr/local/include/lzma pip install -U lxml
 	$(PYENV) pip install --process-dependency-links -r requirements.txt
 	touch $@
 
