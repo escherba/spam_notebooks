@@ -1,0 +1,18 @@
+--find-links http://packages.livefyre.com/buildout/packages/
+numpy==1.8.0
+lflearn>=0.0.1
+scipy==0.13.0
+scikit-learn==0.15.0b1
+nltk==2.0.4
+pandas==0.14.0
+brewer2mpl==1.4
+pyzmq>=2.1.11
+jinja2
+tornado
+beautifulsoup4==4.3.2
+regex>=2014.08.15
+lxml>=3.3.5
+colorama>=0.2.7
+fp-growth==0.1.2
+-e git+https://github.com/escherba/pymaptools.git#egg=pymaptools
+-e git+https://github.com/escherba/lsh-hdc#egg=lsh-hdc

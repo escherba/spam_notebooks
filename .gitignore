@@ -2,8 +2,13 @@
 
 .ipynb_checkpoints/
 
-# Vim
+# Misc Python
+*.py[cod]
 
+# Vim
 *.sw[op]
 
 .ropeproject/
+
+# Virtualenv
+env/
