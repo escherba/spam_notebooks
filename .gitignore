@@ -12,3 +12,9 @@
 
 # Virtualenv
 env/
+
+# Domino
+.domino/
+.dominoignore
+domino.log
+results/

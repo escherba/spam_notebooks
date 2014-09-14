@@ -1,8 +1,5 @@
 --find-links http://packages.livefyre.com/buildout/packages/
-numpy==1.8.0
 lflearn>=0.0.1
-scipy==0.13.0
-scikit-learn==0.15.0b1
 nltk==2.0.4
 pandas==0.14.0
 brewer2mpl==1.4
@@ -15,3 +12,4 @@ colorama>=0.2.7
 lxml
 fp-growth==0.1.2
 -e git+https://github.com/escherba/pymaptools.git#egg=pymaptools
+matplotlib==1.4.0
