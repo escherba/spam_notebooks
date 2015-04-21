@@ -1,15 +1,10 @@
---find-links http://packages.livefyre.com/buildout/packages/
-lflearn>=0.0.1
-nltk==2.0.4
-pandas==0.14.0
-brewer2mpl==1.4
-pyzmq>=2.1.11
-jinja2
-tornado
+bokeh==0.8.2
+scikit-learn==0.16.1
+scipy==0.15.1
+numpy==1.9.2
+palettable==2.0.0
+pandas==0.16.0
+ipython==3.1.0
+jsonschema==2.4.0
 beautifulsoup4==4.3.2
 regex>=2014.08.15
-colorama>=0.2.7
-lxml
-fp-growth==0.1.2
--e git+https://github.com/escherba/pymaptools.git#egg=pymaptools
-matplotlib==1.4.0
