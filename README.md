@@ -7,6 +7,7 @@ download BasicTeX:
 http://www.tug.org/mactex/morepackages.html
 
 On Mavericks you will also need to:
+
     ln -s /Library/TeX/Distributions/Programs/texbin /usr/texbin
 
 Don't forget to add /usr/texbin to your path to make PDF exporting work.
