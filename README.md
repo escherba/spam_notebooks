@@ -38,6 +38,6 @@ To generate other output formats (for example slides) refer to nbconvert help:
 You can view some of these notebooks through the NBViewer or you can download
 pdfs from the results/ directory.
 
-http://nbviewer.ipython.org/github/escherba/spam_notebooks/blob/master/preprocessing.ipynb
-http://nbviewer.ipython.org/github/escherba/spam_notebooks/blob/master/history_modeling.ipynb
-http://nbviewer.ipython.org/github/escherba/spam_notebooks/blob/master/southern_women.ipynb
+http://nbviewer.ipython.org/github/escherba/spam_notebooks/blob/master/src/preprocessing.ipynb
+http://nbviewer.ipython.org/github/escherba/spam_notebooks/blob/master/src/history_modeling.ipynb
+http://nbviewer.ipython.org/github/escherba/spam_notebooks/blob/master/src/southern_women.ipynb
